@@ -1,0 +1,4 @@
+Hello Fedeyou are 29year old
+List size is 0
+Is list empty?
+1
