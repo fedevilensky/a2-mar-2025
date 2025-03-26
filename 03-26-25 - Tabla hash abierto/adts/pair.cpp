@@ -19,7 +19,7 @@ public:
     this->snd = snd;
   }
 
-  virtual bool operator==(const Pair<T1, T2> &other) override
+  bool operator==(const Pair<T1, T2> &other)
   {
     this->fst == other->fst;
   }
