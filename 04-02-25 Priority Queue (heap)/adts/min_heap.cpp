@@ -39,7 +39,7 @@ public:
     this->arrSize = expectedSize + 1;
   }
 
-  virtual void enqueue(E elem, P prio)
+  virtual void enqueue(E elem, P prio) override
   {
     this->count++;
     if (this->count >= this->arrSize)
@@ -58,16 +58,16 @@ public:
     siftUp(count);
   }
 
-  virtual E dequeue()
+  virtual E dequeue() override
   {
     // TODO: implementar
   }
-  virtual E top()
+  virtual E top() override
   {
     assert(this->count > 0);
     return this->arr[1].fst;
   }
-  virtual int size()
+  virtual int size() override
   {
     // TODO: implementar
   }
